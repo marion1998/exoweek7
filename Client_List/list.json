@@ -1,0 +1,23 @@
+{
+    "Rashid": {
+        "Nom": "Marco",
+        "Prénom": "Rashid",
+        "Age": "32",
+        "Profession": "Dev",
+        "Email": "blabla@hotmail.fr"
+    },
+    "Marion": {
+        "Nom": "Marion",
+        "Prénom": "Pandane",
+        "Age": "19",
+        "Profession": "Dev",
+        "Email": "blableblo@hotmail.fr"
+    },
+    "Clement": {
+        "Nom": "Clement",
+        "Prénom": "Riom",
+        "Age": "28",
+        "Profession": "Dev",
+        "Email": "blabliblou@hotmail.fr"
+    }
+}

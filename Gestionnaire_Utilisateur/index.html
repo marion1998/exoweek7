@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inscription</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>Bienvenue</h1>
+
+    <form method="post" action="traitement.php">
+        <div>
+            <label for="nom">Nom : </label>
+            <input type="text" id="Nom" name="nom_de_famille">
+        </div>
+        <div>
+                <label for="prenom">Prenom : </label>
+                <input type="text" id="Prénom" name="prénom">
+            </div>
+            <div>
+                <label for="Sexe">Homme</label>
+                 <input type="radio" id="sexeButton" name="sexe" value="homme">
+                <label for="Sexe">Femme</label>
+                <input type="radio" id="sexeButton" name="sexe" value="femme">
+            </div>
+        <div>
+            <label for="num">Tel : </label>
+            <input id="telNo" type="tel">
+        </div>
+        <div>
+                <label for="identifiant">Identifiant : </label>
+                <input type="text" id="identifiant" name="nom_utilisateur">
+            </div>
+            <div>
+                <label for="mdp">Mot de Passe : </label>
+                <input type="password" id="mot_de_passe" name="mot_de_passe" minlength="8" required="required" class="grey-ligth small password-requierements"/>(8 caractères minimum dont 1 majuscule et 1 chiffre)
+            </div>
+        <div>
+                <label for="nom">Couleur préférée : </label>
+                <input type="text" id="couleur" name="couleur_preferee">
+            </div>
+            <div>
+                    <label for="birth">Date de naissance : </label>
+                    <input type="date" id="date" type="date_de_naissance">
+                </div>
+            <div>
+                    <label for="msg">Hobbies : </label>
+                    <textarea placeholder="Maximum 200 caractères" id="msg" name="hobbies" maxlength="200"></textarea>
+                </div>
+                <div>
+                    <button name="button">Envoyer</button>
+                </div>
+
+    </form>
+</body>
+
+</html>
